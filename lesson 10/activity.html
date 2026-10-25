@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App Homepage</title>
+    <style>
+        body {
+  background-color: #87ceeb;
+  background-image: radial-gradient(circle, white 2px, transparent 3px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.weather-card {
+  width: 400px;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom right, #1e90ff, #87cefa);
+}
+.weather-icon {
+  font-size: 70px;
+  animation: floatCloud 3s infinite alternate;
+}
+ 
+@keyframes floatCloud {
+  from {
+    transform: translateY(0);
+  }
+ 
+  to {
+    transform: translateY(20px);
+  }
+}
+.forecast-section {
+  width: 600px;
+  border: 3px solid white;
+  border-radius: 15px;
+  background-image: radial-gradient(circle, white, #add8e6);
+  color: #003366;
+}
+
+    </style>
+</head>
+<body>
+    <h1>My Weather Homepage</h1>
+    <p Class="Subtitle">
+        Check today's weather and plan your day better.
+    </p>
+      
+    <div class="weather-card"> 
+        <h2>Today's weather</h2>
+
+        <div class="weather-icon">Cloud</div>
+
+        <p id="Temparature">28°C</p>
+         
+        <p class="details">City: Bengaluru</p>
+        <p class="details">Partly Cloudy</p>
+        <p class="details">Humidity: 62%</p>
+        <p class="details">Wind Speed; 12km/h</p>
+
+        
+    </div>
+    <h2>Weekly Forecast</h2>
+    <div class="forecast forecast-section"></div>
+    <h3 class="forecast-title">Nest Five Days</h3>
+     
+    <p class="day">Monday: Sunny -30°C</p>
+    <p class="day">Tuesday: Cloudy - 27°C</p>
+    <p class="day">Wednessday: Rainy - 24°C</p>
+    <p class="day">Thursday : Windy - 26°C</p>
+    <p class="day">Friday: Storm - 23°C</p>
+</body>
+</html>
