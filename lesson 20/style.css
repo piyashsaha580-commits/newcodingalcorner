@@ -1,0 +1,15 @@
+body{
+    background:white;
+
+}
+.navbar{
+background:blue;
+
+}
+.navbar-brand,.nav-link{
+    color:firebrick;
+}
+.title{
+    color:black;
+margin:20px 0px 10px;
+}

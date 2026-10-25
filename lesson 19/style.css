@@ -1,0 +1,21 @@
+bpdy{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 30, 40);
+    padding:20px;
+
+}
+abbr{
+    color:chocolate;
+    font-weight:bold;
+    cursor:help;
+
+}
+
+blockquote{
+    color:dimgray;
+    border-left: 3px solid blue;
+    padding left:  15px;
+    text-allign: center;
+     font-style: italic;
+     display: inline-block;
+}

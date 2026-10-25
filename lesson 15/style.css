@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color : lightblue;
+    padding:30px 10px 20px 40px;
+
+
+}
+h1,h2{
+    color:aqua;
+}
+#special{
+    position:relative;
+    left:30px;
+    top:20px;
+    background-color:aquamarine;
+    width:300px;
+
+}
+#tag{
+    background-color:bisque;
+    padding:20px;
+    width:300px;
+    top:20px;
+    right:10px;
+}
+.head{
+    background:white;
+    color:brown;
+    margin: 5px 0;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.chele{
+    font-size:large;
+    
+}
+.item{
+    background-color:blue;
+    color:azure;
+    margin:60px 0;
+    border:20px;
+    padding:5px 3px;
+    position:sticky;
+}
+#tag{
+    position:absolute;
+    background:red;
+    padding:20px 10px;
+    top:8px;
+    right:10px;
+}
+#team{
+    background:orange;
+    font-color:white;
+    margin:12px 0 3px;
+    padding:10px 20px;
+    position:sticky;
+    top:60px;
+}
