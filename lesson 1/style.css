@@ -1,0 +1,48 @@
+Body{
+   Background : red;
+    color:rgb(23, 23, 138);
+    font family: Arial
+}
+
+
+h1{
+  font-size: 55px;
+  font-weight: bold;
+  color:  blue;
+   text-shadow: 4px 4px;
+
+
+
+
+}
+
+
+.time{
+    font-weight: bold;
+color:blue;
+}
+
+
+
+.p-c{
+text-decoration: line -through;
+color: darkblue;
+}
+
+
+.sect{
+    color:blue;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+
+
+#dsc{
+color:lightblue;
+text-transform: underline;
+text-transform: lowercase;
+
+
+}
