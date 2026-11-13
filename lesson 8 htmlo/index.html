@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My game profile.</title>
+    <style>
+        body{
+            text-align:center;
+background:blue;
+font-family:Arial, Helvetica, sans-serif;
+
+        }
+        button{
+            background-color:aquamarine;
+            padding:2px;
+            color:black;
+            border:none;
+            text-align:justify;
+
+        }
+        div{
+            margin:20px auto;
+            width: 250px;
+            padding:10px;
+            border:1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>my game profile.</h1>
+    <button onclick="showProfile()">Show Profile</button>
+    <div>Name:<span id="name"></span></div>
+    <div>Score:<span id="score"></span></div>
+    <div>Rank:<span id="rank"> </span></div>
+    <div>Greetings:<span id="greetings"></span></div>
+    <div>Stars:<span id="stars"></span></div>
+    <script>
+        function showProfile() {
+        let name="Alex";
+        let score=75;
+        let rank;
+        
+        if(score >=80){
+            rank ="Gold";
+        }
+        else if(score>=50){
+                rank="Silver";
+            }else{
+        rank = "bronze";}
+        let hour = new Date().getHours();
+        let greeting = hour<12 ? "Good morning!" :
+hour<17 ? "good afternoon!" : "good evening!";
+let stars="";
+let count=0;
+  
+while (count <5) {
+    stars="*";
+    count++;
+
+}
+document.getElementById("name").innerHTML =name;
+document.getElementById("score").innerHTML = score;
+document.getElementById("stars").innerHTML = stars;
+document.getElementById("greetings").innerHTML = greetings;
+document.getElementById("rank").innerHTML = rank;
+}
+    </script>
+</body>
+</html>
